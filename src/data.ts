@@ -26,36 +26,42 @@ export const heroSlides: HeroSlideType[] = [
 export const services: ServiceType[] = [
   {
     id: 1,
+    title: 'Fullstack Web Development',
+    description: 'Modern web applications built with React, TypeScript, and WordPress.',
+    icon: 'Code',
+  },
+  {
+    id: 2,
     title: 'General Electrical Design & Implementation',
     description: 'For homes, small businesses, and smart facilities.',
     icon: 'Lightbulb',
   },
   {
-    id: 2,
+    id: 3,
     title: 'Smart Home Setup',
     description: 'Remote control, automation, security, and more.',
     icon: 'Home',
   },
   {
-    id: 3,
+    id: 4,
     title: 'Data Analytics',
     description: 'Using data to optimize energy and business performance.',
     icon: 'BarChart',
   },
   {
-    id: 4,
+    id: 5,
     title: 'Energy Audits',
     description: 'Identify wastage and recommend savings with ISO 50001:2018 principles.',
     icon: 'Gauge',
   },
   {
-    id: 5,
+    id: 6,
     title: 'ELV Design & Implementation',
     description: 'CCTV, access control, structured cabling, fire alarms, and more.',
     icon: 'Cctv',
   },
   {
-    id: 6,
+    id: 7,
     title: 'Renewable System Design & Installation',
     description: 'Standalone or hybrid solar power systems tailored for homes and SMEs.',
     icon: 'Sun',

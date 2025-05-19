@@ -4,6 +4,7 @@ import { useInView } from 'react-intersection-observer';
 import { services } from '../data';
 import { 
   Lightbulb, 
+  Code,
   Home, 
   BarChart, 
   Gauge, 
@@ -47,6 +48,7 @@ const Services: React.FC = () => {
       case 'Gauge': return <Gauge {...iconProps} />;
       case 'Cctv': return <Cctv {...iconProps} />;
       case 'Sun': return <Sun {...iconProps} />;
+      case 'Code': return <Code {...iconProps} />;
       default: return <Lightbulb {...iconProps} />;
     }
   };
