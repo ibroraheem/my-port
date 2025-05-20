@@ -5,7 +5,7 @@ import { heroSlides } from '../data';
 
 const Hero: React.FC = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
-  const whatsappLink = 'https://wa.me/234XXXXXXXXXX?text=Hi+Ibrahim,+I+saw+your+portfolio...';
+  const whatsappLink = 'https://wa.me/2349066730744?text=Hi+Ibrahim,+I+saw+your+portfolio...';
 
   useEffect(() => {
     const timer = setInterval(() => {
